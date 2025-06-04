@@ -4,7 +4,6 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 body {
@@ -18,11 +17,9 @@ body {
 
 img {
     width: 583px;
-
 }
 
 button {
-
     background-color: rgba(174, 195, 70, 1);
     border-radius: 10px;
     width: 342px;
@@ -34,8 +31,6 @@ button {
     color: rgba(255, 255, 255, 1);
     margin-top: 50px;
     cursor: pointer;
-    
-
 }
 
 button:hover {
@@ -47,7 +42,6 @@ button:active {
 }
 
 input {
-
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.25);
     border: 1px;
@@ -60,10 +54,17 @@ input {
     opacity: 70%;
     margin-right: 30px;
     line-height: 100%;
+    color: white;
+    padding-left: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .input-min {
-
     margin-right: 62px;
 }
 
@@ -74,6 +75,4 @@ h2 {
     height: 20px;
     width: 299px;
     margin-bottom: 20px;
-
-
 }
