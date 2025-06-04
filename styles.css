@@ -76,3 +76,18 @@ h2 {
     width: 299px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 780px) {
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.input-min {
+    margin-right: 25px;
+}
+}
